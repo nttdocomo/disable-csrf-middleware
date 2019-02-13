@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 setup(name='disable_csrf_middleware',
       version='1.7',
       description='A Django middeware to generate predictable errors on sites',
-      long_description=long_description,
+      long_description=__doc__,
       author='Au Ngai',
       author_email='nttdocomo.ouyi@gmail.com',
       url='https://github.com/abarto/django_uncertainty',
