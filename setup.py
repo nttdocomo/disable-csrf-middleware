@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+"""
+sentry-auth-github
+==================
+
+:copyright: (c) 2016 Functional Software, Inc
+"""
+from setuptools import setup, find_packages
+
 setup(name='disable_csrf_middleware',
       version='1.7',
       description='A Django middeware to generate predictable errors on sites',
